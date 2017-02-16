@@ -5,12 +5,24 @@ var About = (props) => {
     <div>
       <h1 className="text-center">About</h1>
       <p>
-        This is app is created for learning React.<br/>
-        Course Details <a href="https://www.udemy.com/the-complete-react-web-app-developer-course/">here</a><br/>
-        Link to git repository <a href="https://github.com/pinglayson/ReactWeather">here</a>
+        This is a weather application build on React. I have built this
+        for The Complete React Web App Developer Course.
       </p>
+      <p>
+        Here are some of the tools I used:
+      </p>
+      <ul>
+        <li>
+          <a href="https://facebook.github.io/react">React</a> - This was the
+            JavaScript framework used.
+        </li>
+        <li>
+          <a href="http://openweathermap.org">Open Weather Map</a> - I used
+            Open Weather Map to search for weather data by city name.
+        </li>
+      </ul>
     </div>
   )
-}
+};
 
 module.exports = About;
